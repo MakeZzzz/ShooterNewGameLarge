@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: a48850adc514a654e8876e558ca55dfe
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - GunShotClip: {fileID: 8300000, guid: 5e7f633dda3117f4f90253f51ee065f0, type: 3}
+  - source: {instanceID: 0}
+  - muzzlePrefab: {fileID: 1336949550903370, guid: 4543ab5e3d405ec40a8d4e9aa5165030, type: 3}
+  - muzzlePosition: {instanceID: 0}
+  - _bullet: {fileID: 2178785978353981770, guid: 35485758748b0c345add161a947c0255, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
