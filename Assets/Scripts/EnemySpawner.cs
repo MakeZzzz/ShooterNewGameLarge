@@ -29,7 +29,7 @@ public class EnemySpawner : MonoBehaviour
             var enemy = Instantiate(_enemy);
             _enemy.Initialize(_enemyTarget); 
             _Enemies.Add(enemy);
-            enemy.transform.position = new Vector3(Random.Range(6, -14), 1.05f, Random.Range(-3, -3));
+            enemy.transform.position = new Vector3(Random.Range(6, -14), 1.12f, Random.Range(-3, -3));
             enemy.EnemyDiedEvent += DecreaseEnemiesCount;
         }
     }
