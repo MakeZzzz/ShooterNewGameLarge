@@ -81,6 +81,8 @@ public class Weapon : MonoBehaviour
                         newAS.PlayOneShot(GunShotClip);
                         
                         Destroy(newAS.gameObject, 1);
+                        Destroy(newAS.gameObject, 1);
+                        Destroy(newAS.gameObject, 1);
                     }
                 }
             }
