@@ -324,6 +324,21 @@
      <Reference Include="UnityEditor.UnityConnectModule">
      <HintPath>F:\Program Files\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.Burst.Unsafe">
+     <HintPath>F:\Program Files\Unity projects\ShooterNewGameLarge\Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.Unsafe.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Cecil.Mdb">
+     <HintPath>F:\Program Files\Unity projects\ShooterNewGameLarge\Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Cecil.Pdb">
+     <HintPath>F:\Program Files\Unity projects\ShooterNewGameLarge\Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Pdb.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Cecil">
+     <HintPath>F:\Program Files\Unity projects\ShooterNewGameLarge\Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst.Cecil.Rocks">
+     <HintPath>F:\Program Files\Unity projects\ShooterNewGameLarge\Library\PackageCache\com.unity.burst@1.7.3\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
      <HintPath>F:\Program Files\Unity projects\ShooterNewGameLarge\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
      </Reference>
@@ -729,6 +744,9 @@
      <Reference Include="Unity.VisualScripting.State.Editor">
      <HintPath>F:\Program Files\Unity projects\ShooterNewGameLarge\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.Burst.Editor">
+     <HintPath>F:\Program Files\Unity projects\ShooterNewGameLarge\Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
      <HintPath>F:\Program Files\Unity projects\ShooterNewGameLarge\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
      </Reference>
@@ -759,8 +777,17 @@
      <Reference Include="Unity.EditorCoroutines.Editor">
      <HintPath>F:\Program Files\Unity projects\ShooterNewGameLarge\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.Mathematics">
+     <HintPath>F:\Program Files\Unity projects\ShooterNewGameLarge\Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Animation.Rigging">
+     <HintPath>F:\Program Files\Unity projects\ShooterNewGameLarge\Library\ScriptAssemblies\Unity.Animation.Rigging.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.Services.Core.Analytics">
      <HintPath>F:\Program Files\Unity projects\ShooterNewGameLarge\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Burst">
+     <HintPath>F:\Program Files\Unity projects\ShooterNewGameLarge\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.Shared.Editor">
      <HintPath>F:\Program Files\Unity projects\ShooterNewGameLarge\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
@@ -771,8 +798,20 @@
      <Reference Include="Unity.Timeline.Editor">
      <HintPath>F:\Program Files\Unity projects\ShooterNewGameLarge\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.Mathematics.Editor">
+     <HintPath>F:\Program Files\Unity projects\ShooterNewGameLarge\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.AI.Navigation.Editor">
+     <HintPath>F:\Program Files\Unity projects\ShooterNewGameLarge\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.AI.Navigation">
+     <HintPath>F:\Program Files\Unity projects\ShooterNewGameLarge\Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.TestTools.CodeCoverage.Editor">
      <HintPath>F:\Program Files\Unity projects\ShooterNewGameLarge\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Animation.Rigging.Editor">
+     <HintPath>F:\Program Files\Unity projects\ShooterNewGameLarge\Library\ScriptAssemblies\Unity.Animation.Rigging.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.VisualScripting.State">
      <HintPath>F:\Program Files\Unity projects\ShooterNewGameLarge\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
