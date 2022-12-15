@@ -12,16 +12,9 @@ public class HealthBar : MonoBehaviour
     {
         _bar.fillAmount = _fill;
     }
-    void Update()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            TakeDamage();
-        }
-    }
 
-    public void TakeDamage()
+    public void TakeDamage(float damageValue)
     {
-        _bar.fillAmount -= 0.1f;
+        _bar.fillAmount -= damageValue;
     }
 }

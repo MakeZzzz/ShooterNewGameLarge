@@ -79,9 +79,6 @@ public class Weapon : MonoBehaviour
 
                         // Воспроизвидение звука выстрела
                         newAS.PlayOneShot(GunShotClip);
-                        
-                        Destroy(newAS.gameObject, 1);
-                        Destroy(newAS.gameObject, 1);
                         Destroy(newAS.gameObject, 1);
                     }
                 }

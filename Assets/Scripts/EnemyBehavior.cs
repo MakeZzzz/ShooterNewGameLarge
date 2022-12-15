@@ -6,15 +6,16 @@ using UnityEngine.Events;
 using UnityEngine;
 using UnityEngine.AI;
 
+
 public class EnemyBehavior : MonoBehaviour
 {
     public Action <EnemyBehavior> EnemyDiedEvent;
+    [SerializeField] private Animator _animator;
     
     [SerializeField] private float travelTime = 6000f;
     [SerializeField] private Transform _target;
     [SerializeField] private NavMeshAgent _agent;
-    private float _currentTime;
-   
+
     [UsedImplicitly]
     public void Initialize(Transform target)
     {
@@ -28,6 +29,14 @@ public class EnemyBehavior : MonoBehaviour
         // _currentTime += Time.deltaTime;
         // var progress = _currentTime / travelTime ;
         // transform.position = Vector3.Lerp(transform.position,  _target.transform.position, progress);
+    }
+    
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.GetComponent<HealthBar>())
+        {
+            _animator.SetTrigger("attack");
+        }
     }
     private void OnDestroy()
     {
